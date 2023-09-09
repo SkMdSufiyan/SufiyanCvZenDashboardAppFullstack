@@ -25,11 +25,7 @@ function App() {
         <br />
         <br />
         <br />
-        
-       
-        {/* <p style={{color : "red", fontSize : "small", margin : "0px"}}>Kindly open and close this link one or two times before using this site. </p>
-      <p style={{color : "red", fontSize : "small", margin : "0px"}}>Due to some Netlify deployment issue, it is not showing the data on opening it for the first time. </p> */}
-
+        <br />
       
       <br />
       <BrowserRouter>
