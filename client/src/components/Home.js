@@ -76,8 +76,7 @@ const Home = () => {
         <br />
         <div style={{textAlign:'left', fontSize : "small"}}>
             <ul>
-                <li>Frontend source code url: <a href="https://github.com/SkMdSufiyan/CvCRMfrontend.git" target='_blank' rel="noopener noreferrer">https://github.com/SkMdSufiyan/CvZenFrontend.git</a></li>
-                <li>Backend source code url: <a href="https://github.com/SkMdSufiyan/CvCRMbackend.git" target='_blank' rel="noopener noreferrer">https://github.com/SkMdSufiyan/CvZenBackend.git</a></li>
+                <li>Source code url: <a href="https://github.com/SkMdSufiyan/SufiyanCvZenDashboardAppFullstack.git" target='_blank' rel="noopener noreferrer">https://github.com/SkMdSufiyan/SufiyanCvZenDashboardAppFullstack.git</a></li>
             </ul>
           </div>
 
