@@ -1,0 +1,396 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  margin: 5px 15px;
+  padding: 5px 10px;
+}
+
+
+.blue-color-p-class{
+  background-color: blue;
+  color: white;
+  font: bold;
+}
+
+.suggestion-p-class{
+  color: blue;
+  font-size: small;
+}
+
+.Button-class{
+  margin: 5px 10px;
+}
+
+
+.component-main-div{
+  display: inline-block;
+  text-align: center;
+}
+
+
+.login-suggestion-div{
+  display: inline-block;
+  text-align: center;
+}
+
+span{
+  color: red;
+  font-size: smaller;
+}
+
+
+.home-page-Button-class{
+  margin: 5px 15px;
+}
+
+.signup-login-link-but-div{
+  text-align: right;
+}
+
+.signup-link-but, .login-link-but{
+  border: none;
+  background-color: white;
+  color: blue;
+  margin: 5px 10px;
+  text-decoration: underline;
+}
+
+.forgot-pw-link-but{
+  border: none;
+  background-color: white;
+  color: blue;
+  font-size: small;
+  margin: 5px 10px;
+  text-decoration: underline;
+}
+
+.apiCallError-h6-class{
+  color: red;
+}
+
+.apiCallSuccess-h6-class{
+  color: blue;
+}
+
+
+.profile-div{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.Navbar-class{
+  margin-bottom: 20px;
+  background-color: rgb(19, 68, 44);
+}
+
+.dashboard-button-div{
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid green;
+}
+
+.dashboard-Button-class{
+  margin: 5px 10px;
+
+}
+
+.action-buttons{
+  margin : 0px 5px;
+}
+
+td{
+  text-align: center;
+  justify-content: center;
+}
+
+.home-page-suggestion-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.home-page-suggestion-divs{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.home-page-suggestion-p-red{
+  font-size: small;
+  color: red;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.home-page-suggestion-p-green{
+  font-size: small;
+  color: green;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+
+}
+
+
+
+
+@media(max-width : 600px){
+  .home-page-suggestion-flex{
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  width: 50px;
+  background-color: grey;
+  color: white;
+  transition: width 0.3s; 
+ 
+}
+
+.sidebar:hover {
+  width: 150px; 
+}
+
+
+@media(max-width : 770px) and  (min-width : 460px){
+  .sidebar{
+    top: 90px;
+  }
+
+}
+
+@media(max-width : 460px){
+  .sidebar{
+    top: 120px;
+  }
+
+}
+
+
+
+.sidebar-buttons{
+  margin: 5px 0px;
+}
+
+.bubble-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  width: fit-content;
+  margin-right: 0px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.bubble {
+  width: 2rem;
+  height: 2rem;
+  background-color: lightblue;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: darkblue;
+  border: none;
+}
+
+
+.classdiv{
+  display: block;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 600px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.class-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  height: 60px;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+.class-header h4 {
+  text-align: left;
+}
+
+.class-header Button {
+  text-align: right;
+}
+
+
+td{
+  border: 1px solid blue;
+}
+
+
+.session-contents {
+  text-align: left;
+  font-size: small;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.session-contents ul {
+  margin: 0 30px;
+  padding: 0;
+}
+
+.session-contents li {
+  margin-bottom: 0px;
+}
+
+
+.task-submission-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-submission-div div:first-child {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.task-submission-button-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.actvities-p{
+  text-align: left;
+}
+
+
+.sessions-roadmap-p{
+  color: darkblue;
+}
+
+
+.dashboard-view-profile-button{
+  display: block;
+  width: 100%;
+  justify-content: right;
+  text-align: right;
+}
+
+.dashboard-profile-card-div{
+  display: block;
+  width: 100%;
+  justify-content: right;
+}
+
+.profile-card{
+  margin-left: auto;
+}
+
+.attendance-card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width : 700px){
+  .attendance-card-div{
+    flex-direction: column;
+  }
+}
+
+.attendance-card {
+  width: fit-content;
+  text-align: left;
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  white-space: nowrap;
+  margin: 20px;
+  
+}
+
+.attendance-card-p-blue{
+  color: blue;
+}
+
+.attendance-card-b-green{
+  color: green;
+}
+
+
+.task-listing-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border: 1px solid red;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: fit-content;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.tasks-list-student-name-div {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.tasks-list-class-title-div,
+.tasks-list-date-div,
+.tasks-list-link-div, .tasks-list-comment-div {
+  display: inline-block;
+  margin-top: 5px;
+  margin: 0px 15px;
+}
+
+.tasks-list-title-date-comment-div{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+
+.webcode-submission-div{
+  margin-left: 50px;
+}
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.app-suggestion-p{
+  color : red;
+  font-size: small;
+  margin : 0px;
+  font-weight: bold;
+  animation: blink 1s linear infinite; 
+}
+
+
