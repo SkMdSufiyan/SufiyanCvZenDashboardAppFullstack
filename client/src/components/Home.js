@@ -45,6 +45,7 @@ const Home = () => {
 
 
         <h6>Instructions</h6>
+            <p className='app-suggestion-p'><b style={{color : "blue"}}>Demo credentials</b> are given in the login page.</p>
         <div className='home-page-suggestion-flex'>
           <div className='home-page-suggestion-divs'>
             <ul>
